@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 
 steps:
-- name: scipy-notebook
+- name: scipy-notebook-moop
   image: jupyter/scipy-notebook
   commands:
   - pip install -r requirements.txt
